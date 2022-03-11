@@ -3,6 +3,7 @@
 #include <stdio.h>
 /**
 *main - Print value if is negative or positive
+*
 *Return : Always 0 (Success)
 */
 
@@ -17,13 +18,13 @@ int main(void)
 	{
 		printf("is positive\n");
 	}
-	else if (n < 0)
-	{
-		printf("is negative\n");
-	}
-	else
+	if (n == 0)
 	{
 		printf("is zero\n");
+	}
+	if (n < 0)
+	{
+		printf("is negative\n");
 	}
 		return (0);
 	}
