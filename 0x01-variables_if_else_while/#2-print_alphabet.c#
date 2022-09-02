@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 /**
 *main - Print alphabetic in lower case with standard output
 *Description: We must print alphabetics with lower case
@@ -11,15 +10,16 @@
 int main(void)
 {
 
+int n;
+char alphabetic[] = "abcdefghijklmnopqrstuvwxyz";
 
-char ch;
-
-for (ch = 'a'; ch <= 'z'; ch++)
+do
 {
-	putchar(ch);
-}
-
-putchar('\n');
+  putchar(alphabetic[n]);
+  n++;
+}while (alphabetic[n] != '\0');
+ putchar('\n');
 return (0);
+
 }
 
