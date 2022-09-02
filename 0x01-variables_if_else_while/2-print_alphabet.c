@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
 *main - Print alphabetic in lower case with standard output
@@ -11,14 +12,13 @@ int main(void)
 {
 
 int n;
-char alpahabetic[] = "abcdefghijklmnopqrstuvwxyz";
+char alphabetic[] = "abcdefghijklmnopqrstuvwxyz";
 
-for (n = 0 ; n < sizeof(alpahabetic); n++)
+for (n = 0 ; n < 26; n++)
 {
-putchar(alpahabetic[n]);
-putchar("\n");
+putchar(alphabetic[n]);
 }
-
+putchar('\n');
 return (0);
 
 }
