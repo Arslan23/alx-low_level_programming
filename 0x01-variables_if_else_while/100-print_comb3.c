@@ -24,16 +24,11 @@ for (ch = 48; ch <= 57; ch++)
 		{
 			putchar(ch);
 			putchar(ch2);
-			if (tmp == 56)
-			{
-				putchar(' ');
-			}
-			else
+			if (tmp < 56)
 			{
 				putchar(',');
 				putchar(' ');
 			}
-			
 		}
 	}
 }
