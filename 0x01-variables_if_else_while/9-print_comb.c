@@ -24,8 +24,9 @@ for (ch = 48; ch <= 57; ch++)
 	else
 	{
 		putchar(',');
+		putchar(' ');
 	}
-	putchar(' ');
+	
 }
 
 return (0);
