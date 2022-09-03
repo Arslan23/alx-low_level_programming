@@ -32,6 +32,7 @@ for (ch = 48; ch <= 57; ch++)
 			{
 				putchar(',');
 			}
+			putchar(' ');
 		}
 	}
 }

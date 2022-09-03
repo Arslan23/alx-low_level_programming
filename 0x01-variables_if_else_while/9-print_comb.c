@@ -25,9 +25,9 @@ for (ch = 48; ch <= 57; ch++)
 	{
 		putchar(',');
 	}
+	putchar(' ');
 }
 
-putchar('\n');
 return (0);
 }
 
